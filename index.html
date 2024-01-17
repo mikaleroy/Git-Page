@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Blank Page version 1</title>
+  <title>Blank Page version 2</title>
   <style>
     /* Reset styles */
     body {
@@ -28,18 +28,37 @@
       border-radius: 10px;
       box-shadow: 0 0 20px rgba(185, 26, 137, 0.2);
       color: #228e50;
+      margin-bottom: 30px; /* Add vertical spacing */
+    }
+
+    .left-content {
+      background-color: #262323;
+      border-radius: 10px;
+      width: 48%;
+      float: left;
+    }
+
+    .right-content {
+      background-color: #262323;
+      border-radius: 10px;
+      width: 48%;
+      float: right;
     }
   </style>
 </head>
 <body>
   <div class="container">
     <div class="content">
-      <p>This is a blank page with text
-        and text
-        and text
-      </p>
+      <h1>Title</h1>
+    </div>
 
-      </div>
+    <div class="left-content">
+      <p>This is the left content. <br> left text</p>
+    </div>
+
+    <div class="right-content">
+      <p>This is the right content. <br> right text</p>
+    </div>
   </div>
 </body>
 </html>
