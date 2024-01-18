@@ -4,8 +4,77 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Right Page</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: sans-serif;
+      background-color: #4c4747;
+      color: #e5c612;
+      text-align: center;
+    }
+
+    .content {
+      padding: 20px;
+      background-color: #3c3737;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(185, 26, 137, 0.2);
+      color: #228e50;
+      margin-top: 50px;
+    }
+
+    img {
+      max-width: 120px;
+      height: auto;
+      border-radius: 5px; /* Add styles to the image if needed */
+      cursor: pointer;
+    }
+
+    .image-wrapper {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .back-button {
+      display: inline-block;
+      padding: 10px 20px;
+      margin-top: 10px;
+      background-color: #228e50;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .arrow {
+      margin-right: 5px;
+    }
+
+  </style>
 </head>
 <body>
-  <!-- Your content goes here -->
+  <div class="content">
+    <h1>Right Page</h1>
+    <p>This is the content of the Right page.</p>
+
+    <div class="left-button-content">
+      <div class="image-wrapper">
+        <img class="image" src="./images/pexels-indiana-barriopedro-18028809.jpg" alt="Image 1" data-original-size="800x600">
+        <img class="image" src="./images/pexels-leandro-pita-7706082.jpg" alt="Image 2" data-original-size="750x1075">
+        <img class="image" src="./images/pexels-margarida-da-mota-15412233.jpg" alt="Image 3" data-original-size="600x400">
+      </div>
+
+      <div class="image-preview hidden">
+        <img src="" alt="Miniatures">
+      </div>
+
+      <a href="index.html" class="back-button">
+        <span class="arrow">&larr;</span> Retour
+      </a>
+    </div>
+  </div>
+
 </body>
 </html>
+
